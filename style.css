@@ -81,9 +81,28 @@ nav ul li a:hover {
   color: #fff;
   padding: 20px 40px;
   border-radius: 40px;
+  transition: background 0.3s;
 }
 
 .download img {
   width: 25px;
   margin-left: 15px;
+  animation: move 2s linear infinite;
 }
+
+@keyframes move {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.download:hover {
+  background: #ff3e3b;
+}
+
