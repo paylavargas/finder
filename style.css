@@ -58,3 +58,15 @@ nav ul li a:hover {
   line-height: 100px;
   margin-bottom: 10px;
 }
+
+/* BUTTON */
+.text-box .btn {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  margin-top:30px;
+  background: #ff3e3b;
+  color: #fff;
+  padding: 14px 40px;
+  cursor: pointer;
+}
