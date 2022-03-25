@@ -70,3 +70,20 @@ nav ul li a:hover {
   padding: 14px 40px;
   cursor: pointer;
 }
+
+.download {
+  position: absolute;
+  right: 7%;
+  bottom: 60px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 40px;
+}
+
+.download img {
+  width: 25px;
+  margin-left: 15px;
+}
